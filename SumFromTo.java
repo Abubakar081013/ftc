@@ -3,7 +3,7 @@
 
 class SumFromTo {
     public static void main(String[] args) {
-        System.out.println("Try programiz.pro");
+        System.out.println("LETS GO!!!!!!!!!");
         System.out.println(sumFromTo(4,7));
     }
     public static int sumFromTo(int first, int last){
