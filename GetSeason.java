@@ -5,7 +5,7 @@ import java.util.Scanner;
 class GetSeason {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter Month Number (or 0 to exit)");
+        System.out.println("Enter Month Number (or press 0 to exit)");
         int month = 0;
         while(scan.hasNext()){
             month = scan.nextInt();
@@ -13,7 +13,7 @@ class GetSeason {
                 break;
             }
             System.out.println(getSeason(month));
-            System.out.println("Enter Month Number(or 0 to exit)");
+            System.out.println("Enter Month Number(or press 0 to exit)");
             
         }
         
@@ -35,7 +35,7 @@ class GetSeason {
             output = "This month is in fall season";
         }
         else{
-            output = "That is not a valid month";
+            output = "You know that's not a month";
         }
         return output;
     }
